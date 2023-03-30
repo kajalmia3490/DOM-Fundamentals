@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <h3 id="cloned" class="clone">
+            Document Object Model
+        </h3>
+        <h1 class="headding" id="head">DOM in js</h1>
+        <h2 name="string-print" id="hello">Hello, Duniya!</h2>
+        <ul id="unOrder">
+            <li id="list-one">one</li>
+            <li id="list-two">two</li>
+            <li id="list-three">three</li>
+            <li id="list-four">four</li>
+        </ul>
+
+        <input id="button" type="button" value="add me">
+
+        <div class="box" style="background-color: pink; padding-bottom: 100px;" id="boxId">
+            <p>
+                ( <span id="x-value">0</span>, <span id="y-value">0</span> )
+            </p>
+        </div>
+        <br>
+
+        <!-- form data -->
+        <form id="form" action="#">
+            Name: <br>
+            <input type="text" required id="name" name="name" placeholder="Enter name">
+
+            <p id="msg">
+
+            </p>
+
+            Roll: <br>
+            <input type="number" required id="roll" name="roll" placeholder="Enter roll" id="roll"><br><br>
+
+            Semester: <br>
+            <input type="text" required id="sem" name="semester" placeholder="Enter semester">
+
+            <div class="button">
+                <input type="submit" id="submit" value="submit">
+            </div>
+        </form>
+
+        <!-- second form -->
+        <form action="#" id="second-form">
+            <div>
+                <input type="text" id="fname" name="firstname" placeholder="first name">
+            </div>
+
+            <div>
+                <input type="submit" id="submitter">
+            </div>
+
+            <p class="output1" id="output1">
+
+            </p>
+        </form>
+
+        <!-- use of ajax get request -->
+        <pre>
+            <h3>
+    Use of Ajax get request in js: 
+    Data loading with fetch from another API.
+            </h3>
+        </pre>
+        <div class="container" id="cont">
+            <button id="load"
+                style="color: white; background-color: blue; padding: 6px; border: none; border-radius: 5px;">
+                Data Load
+            </button>
+
+            <ul type="none" class="list-group" id="posts"></ul>
+        </div>
+        <br>
+
+        <!-- select option -->
+        # Programming language select: <br>
+        <input type="checkbox" name="skills"> C programming <br>
+        <input type="checkbox" name="skills"> Python <br>
+        <input type="checkbox" name="skills"> Javascript <br>#Selected your skills: <br>
+        <label id="selected"></label>
+
+        <!-- paragraph section -->
+        <p id="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ullam ipsum inventore totam, possimus
+            error quam ex deserunt expedita voluptates quod saepe commodi excepturi ducimus quidem, est architecto dolor
+            alias.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ullam ipsum inventore totam, possimus
+            error quam ex deserunt expedita voluptates quod saepe commodi excepturi ducimus quidem, est architecto dolor
+            alias.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ullam ipsum inventore totam, possimus
+            error quam ex deserunt expedita voluptates quod saepe commodi excepturi ducimus quidem, est architecto dolor
+            alias.
+
+        </p>
+
+        <p id="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ullam ipsum inventore totam, possimus
+            error quam ex deserunt expedita voluptates quod saepe commodi excepturi ducimus quidem, est architecto dolor
+            alias.
+        </p>
+    </div>
+
+    <!-- use of ajax post request -->
+    <form id="post-form">
+        <div class="form-group">
+            <label for="title">
+                <strong>
+                    Title Name:
+                </strong>
+            </label>
+            <input type="text" id="title" placeholder="Title">
+        </div>
+
+        <div class="form-group">
+
+            <label for="body">
+                <strong>
+                    Description:
+                </strong>
+            </label>
+
+            <textarea name="area" id="body" placeholder="Describe here..." cols="50" rows="10">
+ 
+            </textarea>
+
+        </div>
+
+        <input type="button" value="Submit">
+
+    </form>
+
+    <ul type="none" class="list-group" id="posts">
+
+    </ul>
+
+
+
+    <script src="practice.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
